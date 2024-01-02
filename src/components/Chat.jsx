@@ -8,7 +8,7 @@ import EmojiPicker from 'emoji-picker-react'
 
 import icon from '../images/free-icon-smiling-face-10963285.png'
 
-const socket = io.connect('http://localhost:5000')
+const socket = io.connect('https://chat-socket-io-server.onrender.com')
 
 const Chat = () => {
     const [state, setState] = useState([])
